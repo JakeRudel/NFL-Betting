@@ -1,0 +1,20 @@
+Step 1: Finding the dataset: 
+
+I am using the nfl_data_py module to predict the Win/Loss/Tie record of NFL teams for the 2023 season. The prediction will be based on historical data, player statistics, team performance metrics, and advanced analytics. Selecting the correct datasets ensures that we have comprehensive coverage of variables influencing team outcomes.
+
+We are starting our journey by understanding what there is to offer, ths is done by help(nfl).
+This will give us a base understanding of what datasets we have available and short description of said datasets.  
+Please note, nfl_data_py is outdated and no longer being updated. We are using an old version of python.
+
+
+import pandas as pd
+import nfl_data_py as nfl
+import matplotlib.pyplot as plt
+import numpy as np
+import statsmodels.api as sm
+from scipy.stats import ttest_ind
+from datetime import datetime
+from datetime import date
+import math 
+from sklearn.linear_model import LogisticRegression
+import seaborn as sb
